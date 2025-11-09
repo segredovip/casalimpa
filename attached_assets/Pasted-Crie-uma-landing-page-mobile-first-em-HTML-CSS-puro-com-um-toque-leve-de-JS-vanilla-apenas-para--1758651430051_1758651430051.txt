@@ -1,0 +1,87 @@
+Crie uma landing page mobile-first em HTML + CSS (puro) com um toque leve de JS vanilla apenas para scroll suave. A página é do produto Organiza Lar. Regras obrigatórias:
+
+Layout & Acessibilidade
+
+Estrutura uma coluna (mobile-first). Container centralizado, largura máx. 640px.
+
+Headings com hierarquia semântica (h1 a h3), texto ≥ 16px, contraste AA.
+
+Botões grandes, foco/hover visível, aria-label em CTAs.
+
+Imagens responsivas (max-width:100%; height:auto;) e com alt descritivo.
+
+Âncoras & CTAs
+
+Todos os CTAs devem apontar para a seção #oferta (ancorar com href="#oferta").
+
+Repetir os CTAs ao final dos blocos indicados na copy.
+
+Inserir, logo abaixo de TODO CTA, a imagem de selos de confiança (lateralizada em duas ou três colunas no mobile, centralizada, com espaçamento).
+
+Use o placeholder: assets/selos-confianca.png (eu trocarei depois).
+
+No bloco de BÔNUS não deve existir CTA. Apenas copy e imagem.
+
+Imagens & Ícones (posicionamento)
+
+Em todo bloco, coloque a imagem logo abaixo do título do bloco.
+
+Em blocos com listas, a imagem vem antes da lista (representando o conteúdo).
+
+As imagens dos selos de confiança ficam abaixo do botão, em um wrap flex com itens lado a lado (lateralizados) e largura reduzida (ex.: 28–40% cada selo para mobile), com gap e object-fit: contain.
+
+Seções (ordem e ids)
+
+#hero
+
+#identificacao
+
+#descoberta
+
+#para-quem
+
+#porque-funciona
+
+#prova-social
+
+#o-que-recebe
+
+#bonus (sem CTA)
+
+#oferta (âncora de destino de todos os CTAs)
+
+#sobre
+
+#garantia
+
+#faq
+
+#cta-final (também linka para #oferta)
+
+Performance
+
+CSS interno (no <style>), nada de frameworks.
+
+Fontes do sistema ou 1 Google Font leve.
+
+Imagens lazy (loading="lazy").
+
+JS
+
+Smooth scroll para âncoras.
+
+Sem libs externas.
+
+Estilo (sugestão)
+
+Paleta limpa: fundo #FFFFFF; headings #1C1C1C; textos #3A3A3A; primário do botão #1FA36A; hover #16885A.
+
+Botões: full width no mobile, radius 12px, padding 14–16px, peso 600.
+
+Cards/seções com border-radius: 16px, box-shadow suave.
+
+Conteúdo
+
+Insira placeholders comentados <!-- PASTE: ... --> onde colarei a copy final.
+
+Onde houver “Imagem abaixo do título”, adicione um <img> placeholder com caminho comentado.
